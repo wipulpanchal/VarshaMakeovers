@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:background="#98F9D8D8"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.DashboardFragment">
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+      <LinearLayout
+          android:layout_marginTop="20dp"
+          android:id="@+id/linear"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+         <ImageView
+             android:layout_weight="1"
+             android:id="@+id/buttonOfMakeup"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+             android:layout_width="200dp"
+             android:layout_height="80dp"
+            android:src="@drawable/makeup"/>
+
+            <ImageView
+                android:layout_weight="1"
+                android:id="@+id/buttonOfHaircut"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+             android:layout_width="200dp"
+             android:layout_height="80dp"
+            android:src="@drawable/haircut"/>
+         </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+         <ImageView
+             android:layout_weight="1"
+             android:id="@+id/buttonOfHairTreatment"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+             android:layout_width="200dp"
+             android:layout_height="80dp"
+            android:src="@drawable/hairtreatment"/>
+
+            <ImageView
+                android:layout_weight="1"
+                android:id="@+id/buttonOfHairExtension"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+             android:layout_width="200dp"
+             android:layout_height="80dp"
+            android:src="@drawable/hairextension"/>
+         </LinearLayout>
+ <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+         <ImageView
+             android:layout_weight="1"
+             android:id="@+id/buttonOfHandAndFeet"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+             android:layout_width="200dp"
+             android:layout_height="80dp"
+            android:src="@drawable/handfeet"/>
+    <ImageView
+        android:layout_weight="1"
+        android:id="@+id/buttonOfCourses"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+             android:layout_width="200dp"
+             android:layout_height="80dp"
+            android:src="@drawable/cources"/>
+
+         </LinearLayout>
+
+
+
+
+
+
+      </LinearLayout>
+       <View
+           android:layout_gravity="center"
+           android:background="@color/gray"
+           android:layout_marginTop="10dp"
+           android:layout_width="200dp"
+           android:layout_height="1dp"/>
+       <TextView
+           android:layout_gravity="center"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:fontFamily="@font/zenkurenaidoregular"
+           android:text="HAIR OFFERS"
+           android:textColor="@color/black"
+           android:textSize="16sp"
+           android:textStyle="bold" />
+       <View
+           android:layout_gravity="center"
+           android:background="@color/gray"
+           android:layout_marginTop="2dp"
+           android:layout_width="200dp"
+           android:layout_height="1dp"/>
+
+
+
+      <androidx.recyclerview.widget.RecyclerView
+          android:layout_marginTop="5dp"
+          android:id="@+id/RvHairOffers"
+          android:layout_width="match_parent"
+          android:layout_height="220dp" />
+
+       <View
+           android:layout_gravity="center"
+           android:background="@color/gray"
+           android:layout_marginTop="10dp"
+           android:layout_width="200dp"
+           android:layout_height="1dp"/>
+       <TextView
+           android:layout_gravity="center"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:fontFamily="@font/zenkurenaidoregular"
+           android:text="MAKEUP OFFERS"
+           android:textColor="@color/black"
+           android:textSize="16sp"
+           android:textStyle="bold" />
+       <View
+           android:layout_gravity="center"
+           android:background="@color/gray"
+           android:layout_marginTop="2dp"
+           android:layout_width="200dp"
+           android:layout_height="1dp"/>
+
+
+      <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="5dp"
+          android:layout_width="match_parent"
+          android:layout_height="220dp"
+          android:id="@+id/RvMakeupOffers" />
+       <View
+           android:layout_gravity="center"
+           android:background="@color/gray"
+           android:layout_marginTop="10dp"
+           android:layout_width="200dp"
+           android:layout_height="1dp"/>
+       <TextView
+           android:layout_gravity="center"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:fontFamily="@font/zenkurenaidoregular"
+           android:text="OFFERS"
+           android:textColor="@color/black"
+           android:textSize="16sp"
+           android:textStyle="bold" />
+       <View
+           android:layout_gravity="center"
+           android:background="@color/gray"
+           android:layout_marginTop="2dp"
+           android:layout_width="200dp"
+           android:layout_height="1dp"/>
+
+
+      <androidx.recyclerview.widget.RecyclerView
+
+          android:layout_width="match_parent"
+          android:layout_height="220dp"
+          android:id="@+id/RvFacialOffers" />
+
+   </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Varsha Makeovers</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="services">
+        <item>SERVICES</item>
+        <item>Makeup</item>
+        <item>Facial</item>
+        <item>NailArt</item>
+        <item>Manicure</item>
+        <item>Padicure</item>
+    </string-array>
+    <string name="INTERNET_ERROR">PLEASE CHECK YOUR CONNECTION</string>
+    <string name="email_error">Wrong Email</string>
+
+</resources>
